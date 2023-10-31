@@ -140,29 +140,29 @@ function App() {
       setTimeout(() => {
 
         const div = document.createElement('div');
-    div.style.display = 'flex';
-    div.style.justifyContent = 'center';  // Centrar horizontalmente
-    div.style.alignItems = 'center';   
-    div.style.gap = '1';
+        div.style.display = 'flex';
+        div.style.justifyContent = 'center';  // Centrar horizontalmente
+        div.style.alignItems = 'center';
+        div.style.gap = '1';
 
-    const img1 = document.createElement('img');
-    img1.src = '/left.gif';
-    img1.alt = 'deslizar izquierda';
-    img1.style.width = '170px';
-    img1.style.height = '140px';
+        const img1 = document.createElement('img');
+        img1.src = '/left.gif';
+        img1.alt = 'deslizar izquierda';
+        img1.style.width = '170px';
+        img1.style.height = '140px';
 
-    const img2 = document.createElement('img');
-    img2.src = '/right.gif';
-    img2.alt = 'deslizar derecha';
-    img2.style.width = '170px';
-    img2.style.height = '140px';
+        const img2 = document.createElement('img');
+        img2.src = '/right.gif';
+        img2.alt = 'deslizar derecha';
+        img2.style.width = '170px';
+        img2.style.height = '140px';
 
-    div.appendChild(img1);
-    div.appendChild(img2);
+        div.appendChild(img1);
+        div.appendChild(img2);
 
         Swal.fire({
           html: div,
- 
+
           title: '<span style="color: grey">---Gastos---</span>\n\n <span style="color: green">--->Editar</span>\n <span style="color: red"> <---Eliminar</span>',
           showClass: {
             popup: 'animate__animated animate__fadeInDown'

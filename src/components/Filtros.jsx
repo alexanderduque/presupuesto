@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const Filtros = ({filtro,setFiltro}) => {
+const Filtros = ({ filtro, setFiltro }) => {
     return (
         <div className='filtros sombra contenedor'>
 
@@ -9,10 +9,10 @@ const Filtros = ({filtro,setFiltro}) => {
                 <div className='campo'>
 
                     <label htmlFor="">Filtrar Gastos</label>
-                    <select 
-                    value={filtro}
-                    onChange={e=> setFiltro(e.target.value)}
-                    
+                    <select
+                        value={filtro}
+                        onChange={e => setFiltro(e.target.value)}
+
                     >
 
 
