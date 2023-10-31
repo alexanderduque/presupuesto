@@ -146,13 +146,13 @@ function App() {
     div.style.gap = '1';
 
     const img1 = document.createElement('img');
-    img1.src = 'public/left.gif';
+    img1.src = '/left.gif';
     img1.alt = 'deslizar izquierda';
     img1.style.width = '170px';
     img1.style.height = '140px';
 
     const img2 = document.createElement('img');
-    img2.src = 'public/right.gif';
+    img2.src = '/right.gif';
     img2.alt = 'deslizar derecha';
     img2.style.width = '170px';
     img2.style.height = '140px';
