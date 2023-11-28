@@ -1,8 +1,6 @@
-# React + Vite
+# Control De Gastos App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Saludos! Hoy quiero presentarte un proyecto en el que he fusionado esfuerzo y dedicación. Ha sido un viaje emocionante que ha dado como resultado algo que espero te impresione.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+La funcion global de la App es poder llevar un control de tus gastos e irte mostrando porcentualmente de cuanto dispones y cuanto has gastado o en su defecto si ya pasaste el limite
+Puedes echarle un vistado Aka: https://controlgastos-app.netlify.app/ 
